@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Srikanth — Full Stack Developer & UI/UX Designer" />
+  <title>Srikanth — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo">
+        Srikanth<span>.</span>
+      </a>
+
+      <!-- Links -->
+      <ul class="nav-links" id="navLinksContainer">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#skills" class="nav-cta">Hire Me</a></li>
+      </ul>
+
+      <!-- Mobile toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid-lines"></div>
+
+    <div class="hero-inner">
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-line"></div>
+          <span>Welcome to my portfolio</span>
+        </div>
+
+        <h1 class="hero-name">
+          Hello, I'm
+          <span class="highlight">Srikanth</span>
+        </h1>
+
+        <p class="hero-role">
+          <span id="typed-role">Full Stack Developer</span>
+          <span class="cursor">|</span>
+        </p>
+
+        <p class="hero-desc">
+          I craft elegant digital experiences where thoughtful design meets clean, performant code.
+          Passionate about turning complex problems into intuitive, beautiful interfaces.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#about" class="btn-primary">
+            <i class="bi bi-person-lines-fill"></i> About Me
+          </a>
+          <a href="#skills" class="btn-outline">
+            <i class="bi bi-layers"></i> My Skills
+          </a>
+        </div>
+      </div>
+
+        <!-- Right: Image -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-inner">
+
+      <!-- Image side -->
+      <div class="about-image-side fade-up">
+        <div class="about-img-wrap">
+          <div class="about-img-inner">
+            <div class="about-img-icon">🖼️</div>
+            <div class="about-img-text">your photo here</div>
+          </div>
+        </div>
+        <div class="about-accent-box"></div>
+        <div class="about-accent-card">
+          <div class="big">Fresher</div>
+    
+        </div>
+      </div>
+
+      <!-- Text side -->
+      <div class="about-text">
+        <p class="section-label fade-up">About Me</p>
+        <h2 class="section-title fade-up">
+          Crafting <em>digital stories</em><br> that resonate
+        </h2>
+
+        <p class="fade-up">
+          Hi! I'm Srikanth, a full-stack developer and UI/UX designer based in Hyderabad.
+          I blend technical precision with creative instinct to build products that are as functional
+          as they are beautiful.
+        </p>
+        <p class="fade-up">
+          As a self-taught coder, I started my journey by building small web projects and gradually
+          developed my skills in both frontend and backend development.
+        </p>
+        <p class="fade-up">
+          When I'm not coding, you'll find me sketching UI concepts, contributing to open-source,
+          or exploring the latest in web performance and accessibility.
+        </p>
+
+        <!-- Info grid -->
+        <div class="about-highlights fade-up">
+          <div class="about-highlight-item">
+            <div class="ahi-icon">📍</div>
+            <div>
+              <div class="ahi-label">Location</div>
+              <div class="ahi-value">Hyderabad, Telangana</div>
+            </div>
+          </div>
+          <div class="about-highlight-item">
+            <div class="ahi-icon">🎓</div>
+            <div>
+              <div class="ahi-label">Education</div>
+              <div class="ahi-value">B.Tech Computer Science</div>
+            </div>
+          </div>
+          <div class="about-highlight-item">
+            <div class="ahi-icon">💼</div>
+            <div>
+              <div class="ahi-label">Experience</div>
+              <div class="ahi-value">Fresher</div>
+            </div>
+          </div>
+          <div class="about-highlight-item">
+            <div class="ahi-icon">📧</div>
+            <div>
+              <div class="ahi-label">Email</div>
+              <div class="ahi-value">srikanth@gmail.com</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="hero-actions fade-up">
+          <a href="#skills" class="btn-primary">
+            <i class="bi bi-arrow-down-circle"></i> View My Skills
+          </a>
+          <a href="#" class="btn-outline">
+            <i class="bi bi-download"></i> Download CV
+          </a>
+        </div>
+
+        <!-- Socials -->
+        <div class="about-socials fade-up">
+          <a href="#" class="social-link" title="GitHub"><i class="bi bi-github"></i></a>
+          <a href="#" class="social-link" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-link" title="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-link" title="Dribbble"><i class="bi bi-dribbble"></i></a>
+          <a href="#" class="social-link" title="Email"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="skills-inner">
+
+      <div class="skills-header">
+        <p class="section-label fade-up">My Skills</p>
+        <h2 class="section-title fade-up">
+          Technologies I <em>work with</em>
+        </h2>
+        <p class="fade-up" style="color:var(--text-secondary); font-size:0.95rem; line-height:1.8;">
+            I have experience working with a wide range of technologies across the full stack.
+            Below are some of my core competencies, along with proficiency levels based on my experience and projects.
+      </div>
+
+      <!-- Skill Cards Grid -->
+      <div class="skills-grid">
+
+        <!-- Frontend -->
+        <div class="skill-card fade-up">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">🎨</div>
+            <div>
+              <div class="skill-card-title">Frontend</div>
+              <div class="skill-card-sub">UI Development</div>
+            </div>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-top">
+                <span class="skill-bar-name">HTML</span>
+                <span class="skill-bar-pct">96%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="96"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-top">
+                <span class="skill-bar-name">JavaScript / TypeScript</span>
+                <span class="skill-bar-pct">80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="80"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-top">
+                <span class="skill-bar-name">Css</span>
+                <span class="skill-bar-pct">88%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="88"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-top">
+                <span class="skill-bar-name">Bootstrap</span>
+                <span class="skill-bar-pct">92%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="92"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card fade-up">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">⚙️</div>
+            <div>
+              <div class="skill-card-title">Backend</div>
+              <div class="skill-card-sub">Server & APIs</div>
+            </div>
+          </div>
+          
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-top">
+                <span class="skill-bar-name">Python</span>
+                <span class="skill-bar-pct">78%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="78"></div>
+              </div>
+            </div>
+           
+           
+
+        
+            <div class="skill-bar-item">
+              <div class="skill-bar-top">
+                <span class="skill-bar-name">Git / GitHub</span>
+                <span class="skill-bar-pct">93%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="93"></div>
+              </div>
+            </div>
+            
+
+      </div><!-- /skills-grid -->
+
+     
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER BAND
+  ═══════════════════════════════════════════ -->
+  <footer class="footer-band">
+    Designed &amp; built by <span>Srikanth Morgan</span> &nbsp;·&nbsp; © 2026 All Rights Reserved
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
